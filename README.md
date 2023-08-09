@@ -1,4 +1,7 @@
 <hr>
+<p align="center">
+  <img src="Connectify_ne.png" alt="Yelp" width="300"> <img src="src/Maps.jpeg" alt="Maps" width="300">
+</p>
 
 <hr>
 <h1 align="center">PROYECTO GOOGLE + YELP </h1>
@@ -9,7 +12,7 @@
 </p>
 
 <h1 align="center">¿Quienes somos?👥</h1>
-* Somos una consultora ficticia de análisis de datos, llamada DATA HUNTERS. Nuestro proyecto se centra en analizar la información recopilada de plataformas de reseñas como Yelp y Google Maps. Nuestro objetivo principal es Mejorar el posicionamiento del Ratiing en restaurantes en las zonas con mayor afluencia de turistas: con el fin de comprender su experiencia, necesidades y expectativas en relación a los diferentes servicios.*
+<i>Somos una consultora ficticia de análisis de datos, llamada DATA HUNTERS. Nuestro proyecto se centra en analizar la información recopilada de plataformas de reseñas como Yelp y Google Maps. Nuestro objetivo principal es Mejorar el posicionamiento del Ratiing en restaurantes en las zonas con mayor afluencia de turistas, con el fin de comprender la experiencia, necesidades y expectativas en relación a los diferentes servicios ofrecidos a los usuarios.</i>
 
 <p align="center">
   <img src="src/Group.png" alt="Group" width="300"> 
@@ -26,8 +29,7 @@ Este análisis de datos nos permite proporcionar un análisis detallado basado e
 </p>
 
 
-@@ -40,18 +41,32 @@ Con esta innovadora solución, se mejorará significativamente la experiencia de
-<h1 align="center">Objetivos del Negocio</h1>
+<h1 align="center">Objetivos del Proyecto</h1>
 <p align="justify">
 
 ## Objetivo General(o principal):
@@ -63,30 +65,36 @@ Este análisis de datos nos permite proporcionar un análisis detallado basado e
 
 <h1 align="center">Stack Tecnológico 👨‍💻</h1>
 
+🐍Python: Lenguaje utilizado para realizar cálculos estadísticos, crear visualizaciones de datos, construir algoritmos de aprendizaje automático, manipular y analizar datos y completar tareas relacionadas con los datos.
 
-@@ -71,4 +86,25 @@ Con esta innovadora solución, se mejorará significativamente la experiencia de
-  💻**Looker Studio**: Herramienta de Google Cloud Platform que permite convertir datos en informes y paneles claros, totalmente personalizables, fáciles de consultar y compartir, lo que permite tomar decisiones basadas en datos de manera más efectiva.
+🐼Pandas: Librería de Python Utilizada para la manipulación y análisis de datos estructurados.
+
+📈Matplotlib: Librería de Python utilizada para la visualización de datos y generación de gráficos.  
+
+📘Visual Studio Code: Editor de código fuente que permite el desarrollo de las instrucciones para la ejecución de todo el proyecto.
+
+💻**Looker Studio**: Herramienta de Google Cloud Platform que permite convertir datos en informes y paneles claros, totalmente personalizables, fáciles de consultar y compartir, lo que permite tomar decisiones basadas en datos de manera más efectiva.
 
   ⚡**DataFlow**: Es un servicio de procesamiento de datos que se ejecuta en recursos de Google Cloud Platform, como Compute Engine, Cloud Storage y BigQuery. Es un sistema rápido, rentable y sin servidor para el procesamiento de datos de transmisión y por lotes. Ofrece una variedad de características, como capacidades de visualización de trabajos, capacidad virtualmente ilimitada y diagnósticos inteligentes.
   </p>
   </p>
 
-<h1 align="center">Autores 👥🖋</h1>
 
-<p align="justify"> 
+<h1>Autores 👥🖋</h1>
+
+<ul>
+<li>Oscar Tejedor, Data Scientist- @oscartg25</li>
+<li>Julieta Franco, Data Analyst</li>
+<li>Bryan Darce, Data Engineer- @BryanDarce01</li>
+<li>Cristian Suazo, Data Engineer</li>
+<li>Gaston Re, Data Scientist -@Gaston-Re</li>
+</ul>
 
 
-Oscar Tejedor, Data Scientist - 
-Julieta Franco, Data Analyst - 
-Bryan Darce, Data Enginieer - 
-Cristian Suazo, Data Engineer - 
-Gaston Re, Data Scientist - 
- </p>
-
-<h1 align="center"> Herramientas 🛠</h1> 
-
-<p align="justify"> 
-
+<h1> Herramientas 🛠</h1> 
 
 Python, Google Data Looker, Google Cloud Storage, BigQuery, TensorFlow, Keras
  </p>
+
+<h1> Video del Producto 📷</h1>
+
