@@ -1,7 +1,7 @@
-<hr>
 <p align="center">
-  <img src="Connectify_ne.png" alt="Yelp" width="300"> <img src="src/Maps.jpeg" alt="Maps" width="300">
+  <img src="src/Huntersb.png" alt="DataHunters" width="300">
 </p>
+
 
 <hr>
 <h1 align="center">PROYECTO GOOGLE + YELP </h1>
@@ -36,25 +36,6 @@ Este análisis de datos nos permite proporcionar un análisis detallado basado e
 <h1 align="center">Objetivos del Proyecto</h1>
 <p align="justify">
 
-## Objetivo General(o principal):
-
-  1. Mejorar el posicionamiento del Raiting o estrellas de los  restaurantes en ciudades con mayor afluencia de turistas() 
-
-### Objetivos especificos:
-
-  2. Garantizar la disponibilidad de datos limpios y estructurados
-
-
-  3. Realizar un análisis exploratorio de las reseñas de usuarios
-
-  4. Desarrollar un modelo de machine learning avanzado de recomendación
-
-  5. Crear una interfaz interactiva que visualice y explore los resultados del análisis
-</p>
-
-<h1 align="center">Objetivos del Proyecto</h1>
-<p align="justify">
-
 ## Objetivo General
   
 1. Mejorar el posicionamiento del Raiting o estrellas de los restaurantes en ciudades con mayor afluencia de turistas
@@ -80,20 +61,6 @@ Este análisis de datos nos permite proporcionar un análisis detallado basado e
 4. Modelos de Machine Learning con las librerias de Scikit-learn, Keras y TensorFlow, deployados con la libreria Streamlit
 
 5. Visualización y reportes con Google Data Looker conectado desde BigQuery
-<h1 align="center">Stack Tecnológico 👨‍💻</h1>
-<h1 align="center">¿Como lo hicimos?</h1>
-<p align="justify">
-
-1- Extracción y transformación de datos con python usando las librerias Pandas y Numpy principalmente.
-
-2- Almacenamiento de datos limpios y estructurados con el servicio en la nube Google Cloud Storage
-
-3- Análisis de datos en la nube conn BigQuery
-
-4- Modelos de Machine Learning con las librerias de Scikit-learn, Keras y TensorFlow, deployados con la libreria Streamlit
-
-5- Visualización y reportes con Google Data Looker conectado desde BigQuery
-</p>
 
 
 <h1 align="center">Stack Tecnológico 👨‍💻</h1>
@@ -136,21 +103,3 @@ Readme2
   Python - Google Data Looker - Google Cloud Storage - BigQuery - TensorFlow - Keras
 
 <h1 align="center">Video del Producto 📷</h1>
-<h1 align="center">Video del Producto 📷</h1>
-<h1>Autores 👥🖋</h1>
-
-<ul>
-<li>Oscar Tejedor, Data Scientist- @oscartg25</li>
-<li>Julieta Franco, Data Analyst</li>
-<li>Bryan Darce, Data Engineer- @BryanDarce01</li>
-<li>Cristian Suazo, Data Engineer</li>
-<li>Gaston Re, Data Scientist -@Gaston-Re</li>
-</ul>
-
-
-<h1> Herramientas 🛠</h1> 
-
-Python, Google Data Looker, Google Cloud Storage, BigQuery, TensorFlow, Keras
- </p>
-
-<h1> Video del Producto 📷</h1>
