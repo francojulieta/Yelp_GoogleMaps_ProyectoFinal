@@ -79,9 +79,9 @@ def obtener_resenas_estado(estados_ciudades, google_api_key, yelp_api_key):
     
     return reviews_data
 
-# Obtener datos de la API de Google y Yelp
-google_api_key = "AIzaSyCaK5no9pX8MeqTmSED0smdLGr86ws9TRw"
-yelp_api_key = "9cG2qpKhFJqtuLjhkjTmZ6DzWgcTxT8yGfQoISW4h99tFMtc7T25dOMUb-kh404EPBdFFdSo2bYujF2DTn9TgKoTXOm0SCTBamyO_RDY3vVMEczDh6bunru94X_RZHYx"
+# clave API de Google y Yelp
+google_api_key = "clave-api"
+yelp_api_key = "clave-api"
 estados_ciudades = {
     'New York': ['Ciudad de Nueva York', 'Niagara Falls', 'Buffalo', 'Rochester', 'Albany', 'Syracuse', 'Long Island', 'Ithaca', 'Montauk', 'Cooperstown'],
     'California': ['Los Ángeles', 'San Francisco', 'San Diego', 'Napa Valley', 'Yosemite National Park', 'Lake Tahoe', 'Santa Barbara', 'Palm Springs', 'Big Sur', 'Hollywood'],
@@ -89,19 +89,12 @@ estados_ciudades = {
 }
 reviews_data = obtener_resenas_estado(estados_ciudades, google_api_key, yelp_api_key)
 
+#Almacenamiento en el bucket
 if reviews_data:
     filename = f"reviews_gm_all_.json"
-
-    # Inicializar el cliente de Google Cloud Storage
     client = storage.Client()
-
-    # Obtener el bucket de Google Cloud Storage donde deseas almacenar los datos
-    bucket = client.bucket('bucket_api_json')
-
-    # Crear un nuevo objeto Blob en el bucket
+    bucket = client.bucket('nombre del bucket')
     blob = bucket.blob(filename)
-
-    # Convertir los datos en formato JSON y cargarlos en el objeto Blob
     blob.upload_from_string(json.dumps(reviews_data))
 
     print(f"Datos de reseñas guardados en Google Cloud Storage: {filename}")
