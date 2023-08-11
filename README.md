@@ -62,26 +62,19 @@ Este análisis de datos nos permite proporcionar un análisis detallado basado e
 
 <h1 align="center">Stack Tecnológico 👨‍💻</h1>
 <p align="justify"> 
-🐍Python: Lenguaje utilizado para realizar cálculos estadísticos, crear visualizaciones de datos, construir algoritmos de aprendizaje automático, manipular y analizar datos y completar tareas relacionadas con los datos.
 
-🐼Pandas: Librería de Python Utilizada para la manipulación y análisis de datos estructurados.
+🐍 **Python**: Lenguaje utilizado para realizar cálculos estadísticos, crear visualizaciones de datos, construir algoritmos de aprendizaje automático, manipular y analizar datos y completar tareas relacionadas con los datos.
+
+🐼 **Pandas**: Librería de Python Utilizada para la manipulación y análisis de datos estructurados.
 master
 
-📈Matplotlib: Librería de Python utilizada para la visualización de datos y generación de gráficos.  
+📈 **Matplotlib**: Librería de Python utilizada para la visualización de datos y generación de gráficos.  
 
-📘Visual Studio Code: Editor de código fuente que permite el desarrollo de las instrucciones para la ejecución de todo el proyecto.
+📘 **Visual Studio Code**: Editor de código fuente que permite el desarrollo de las instrucciones para la ejecución de todo el proyecto.
 
-💻**Looker Studio**: Herramienta de Google Cloud Platform que permite convertir datos en informes y paneles claros, totalmente personalizables, fáciles de consultar y compartir, lo que permite tomar decisiones basadas en datos de manera más efectiva.
+💻 **Looker Studio**: Herramienta de Google Cloud Platform que permite convertir datos en informes y paneles claros, totalmente personalizables, fáciles de consultar y compartir, lo que permite tomar decisiones basadas en datos de manera más efectiva.
 
-  ⚡**DataFlow**: Es un servicio de procesamiento de datos que se ejecuta en recursos de Google Cloud Platform, como Compute Engine, Cloud Storage y BigQuery. Es un sistema rápido, rentable y sin servidor para el procesamiento de datos de transmisión y por lotes. Ofrece una variedad de características, como capacidades de visualización de trabajos, capacidad virtualmente ilimitada y diagnósticos inteligentes.
-  </p>
-  </p>
-Readme2
-  🌐**Google Cloud Platform**: Es una suite de servicios en la nube ofrecida por Google que proporciona una variedad de soluciones para alojar, gestionar y desarrollar aplicaciones y servicios en la nube.
-  
-  💻**Looker Studio**: Herramienta de Google Cloud Platform que permite convertir datos en informes y paneles claros, totalmente personalizables, fáciles de consultar y compartir, lo que permite tomar decisiones basadas en datos de manera más efectiva.
-  
-  ⚡**DataFlow**: Es un servicio de procesamiento de datos que se ejecuta en recursos de Google Cloud Platform, como Compute Engine, Cloud Storage y BigQuery. Es un sistema rápido, rentable y sin servidor para el procesamiento de datos de transmisión y por lotes. Ofrece una variedad de características, como capacidades de visualización de trabajos, capacidad virtualmente ilimitada y diagnósticos inteligentes.
+  ⚡**Hevo**: plataforma de canalización de datos sin mantenimiento que te ayuda a configurar canalizaciones de datos en minutos. Sincroniza automáticamente los datos de todas tus fuentes con el almacén, sin necesidad de mantenimiento..
   </p>
 
 
