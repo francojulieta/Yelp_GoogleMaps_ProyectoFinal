@@ -14,6 +14,12 @@
   <img src="src/Yelp.png" alt="Yelp" width="300"> <img src="src/Maps.jpeg" alt="Maps" width="300">
 </p>
 
+<h1 align="center">¿Quienes somos?👥</h1>
+<p align="justify"> 
+Somos una consultora ficticia de análisis de datos, llamada DATA HUNTERS. Nuestro proyecto se centra en analizar la información recopilada de plataformas de reseñas como Yelp y Google Maps. Nuestro objetivo principal es Mejorar el posicionamiento del Ratiing en restaurantes en las zonas con mayor afluencia de turistas, con el fin de comprender la experiencia, necesidades y expectativas en relación a los diferentes servicios ofrecidos a los usuarios.
+
+
+</p>
 
 <h1 align="center">Introducción</h1>
 
@@ -37,24 +43,36 @@ Este minucioso estudio permitirá a los gerentes desarrollar un sistema de recom
 Con esta innovadora solución, se mejorará significativamente la experiencia del usuario y se potenciará como una ventaja competitiva para nuestros clientes. 
 </p>
 
-<h1 align="center">Objetivos del Negocio</h1>
+<h1 align="center">Objetivos del Proyecto</h1>
 <p align="justify">
-  
-  1. Mejorar el posicionamiento de restaurantes en zonas con mayor afluencia de turistas: Se tomó en cuenta esto ya que al ser ciudades muy turísticas, el flujo de clientes es constante. 
-  
-  2. Analizar las tendencias del rubro: Con esto buscamos entender qué es lo que buscan los clientes.
-  
-  3. Indagar sobre la competencia: Qué productos ofrecen, fidelidad de los clientes locales.
-  
-  4. Nicho de negocio: Hacia quienes está dirigido el negocio, esto nos va a facilitar para crear campañas de marketing.
-  
-  5. Creación de campañas de marketing segmentadas por clientes locales y turistas.
 
-</p>
+## Objetivo General
+  
+1. Mejorar el posicionamiento del Raiting o estrellas de los restaurantes en ciudades con mayor afluencia de turistas
+
+### Objetivos especificos:
+2. Garantizar la disponibilidad de datos limpios y estructurados
+
+3. Realizar un análisis exploratorio de las reseñas de usuarios
+
+4. Desarrollar un modelo de machine learning avanzado de recomendación
+
+5. Crear una interfaz interactiva que visualice y explore los resultados del análisis
+
+
+<h1 align="center">¿Como lo hicimos?</h1>
+
+1. Extracción y transformación de datos con python usando las librerias Pandas y Numpy principalmente.
+
+2. Almacenamiento de datos limpios y estructurados con el servicio en la nube Google Cloud Storage
+
+3. Análisis de datos en la nube conn BigQuery
+
+4. Modelos de Machine Learning con las librerias de Scikit-learn, Keras y TensorFlow, deployados con la libreria Streamlit
+
+5. Visualización y reportes con Google Data Looker conectado desde BigQuery
 
 <h1 align="center">Stack Tecnológico 👨‍💻</h1>
-
-
 
 <p align="justify"> 
 
@@ -72,3 +90,20 @@ Con esta innovadora solución, se mejorará significativamente la experiencia de
   
   ⚡**DataFlow**: Es un servicio de procesamiento de datos que se ejecuta en recursos de Google Cloud Platform, como Compute Engine, Cloud Storage y BigQuery. Es un sistema rápido, rentable y sin servidor para el procesamiento de datos de transmisión y por lotes. Ofrece una variedad de características, como capacidades de visualización de trabajos, capacidad virtualmente ilimitada y diagnósticos inteligentes.
   </p>
+
+
+  <h1 align="center">Autores 👥🖋</h1>
+
+  <p align="justify"> 
+
+  - Oscar Tejedor, Data Scientist- @oscartg25
+  - Julieta Franco, Data Analyst
+  - Bryan Darce, Data Engineer- @BryanDarce01
+  - Cristian Suazo, Data Engineer
+  - Gaston Re, Data Scientist -@Gaston-Re
+
+
+  <h1 align="center">Herramientas 🛠</h1>
+  Python - Google Data Looker - Google Cloud Storage - BigQuery - TensorFlow - Keras
+
+<h1 align="center">Video del Producto 📷</h1>
