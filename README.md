@@ -1,3 +1,5 @@
+<h1 align="center">DATA HUNTERS </h1>
+  
 <p align="center">
   <img src="src/Huntersb.png" alt="DataHunters" width="300">
 </p>
@@ -16,11 +18,6 @@
 Somos una consultora ficticia de análisis de datos, llamada DATA HUNTERS. Nuestro proyecto se centra en analizar la información recopilada de plataformas de reseñas como Yelp y Google Maps. Nuestro objetivo principal es Mejorar el posicionamiento del Ratiing en restaurantes en las zonas con mayor afluencia de turistas, con el fin de comprender la experiencia, necesidades y expectativas en relación a los diferentes servicios ofrecidos a los usuarios.
 
 <i>Somos una consultora ficticia de análisis de datos, llamada DATA HUNTERS. Nuestro proyecto se centra en analizar la información recopilada de plataformas de reseñas como Yelp y Google Maps. Nuestro objetivo principal es Mejorar el posicionamiento del Ratiing en restaurantes en las zonas con mayor afluencia de turistas, con el fin de comprender la experiencia, necesidades y expectativas en relación a los diferentes servicios ofrecidos a los usuarios.</i>
-
-<p align="center">
-  <img src="src/Group.png" alt="Group" width="300"> 
-
-</p>
 
 <h1 align="center">Introducción</h1>
 
