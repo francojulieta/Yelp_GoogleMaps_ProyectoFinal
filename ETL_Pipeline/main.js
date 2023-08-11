@@ -1,37 +1,39 @@
-const { DataflowPipelineRunner } = require('@apache_beam/runner-dataflow');
-const { Pipeline } = require('@apache_beam/pipeline');
-const { ReadFromText, WriteToText } = require('@apache_beam/io/textio');
+const { BeamPipelineOptions, BeamPipeline } = require('apache-beam-runner');
+const { ReadFromText, WriteToText } = require('apache-beam-io');
+const { DoFn } = require('apache-beam');
 
-function removeIsOpen(record) {
-  // Esta función elimina la columna "is_open" del registro
-  delete record['is_open'];
-  return record;
+class RemoveIsOpenColumn extends DoFn {
+  processElement(element) {
+    // Esta función elimina la propiedad "is_open" del registro
+    delete element['is_open'];
+    return element;
+  }
 }
 
 async function runPipeline(inputFile, outputFile) {
-  const pipeline = new Pipeline();
-
-  pipeline.apply(
-    ReadFromText(inputFile)
-  ).apply(
-    'RemoveIsOpenColumn', ParDo.of(removeIsOpen)
-  ).apply(
-    WriteToText(outputFile)
-  );
-
+  // Crea opciones del pipeline para Dataflow
   const pipelineOptions = {
-    runner: DataflowPipelineRunner,
-    options: {
-      project: 'yelp-394623',
-      region: 'us-central1',
-      tempLocation: 'gs://proyecto-yelp/tmp',
-    },
+    runner: 'DataflowRunner',
+    project: 'yelp-394623',
+    region: 'us-central1',
+    tempLocation: 'gs://proyecto-yelp/tmp',
   };
 
-  await pipeline.run(pipelineOptions);
+  // Crea el pipeline de Dataflow
+  const pipeline = BeamPipeline.create(PipelineOptions.fromObject(pipelineOptions));
+
+  // Lee los datos del archivo CSV
+  const lines = pipeline.apply('ReadFromGCS', ReadFromText.from(inputFile));
+
+  // Aplica la transformación para eliminar la columna "is_open"
+  const cleanedData = lines.apply('RemoveIsOpenColumn', beam.ParDo.of(new RemoveIsOpenColumn()));
+
+  // Escribe los datos limpios en otro archivo CSV
+  cleanedData.apply('WriteToGCS', WriteToText.to(outputFile).withSuffix('.csv'));
+
+  await pipeline.run();
 }
 
 const inputFile = 'gs://proyecto-yelp/sets/business.csv';
-const outputFile = 'gs://proyecto-yelp/sets/output.csv';
-
+const outputFile = 'gs://proyecto-yelp/sets_limpios/output'; // El archivo de salida será un archivo CSV
 runPipeline(inputFile, outputFile);
