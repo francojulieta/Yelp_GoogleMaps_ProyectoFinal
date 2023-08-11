@@ -1,5 +1,5 @@
 import apache_beam as beam
-from apache_beam.io import ReadFromText, WriteToText
+from apache_beam.io import ReadFromTextFile, WriteToText
 from apache_beam.options.pipeline_options import PipelineOptions
 
 def remove_is_open(record):
@@ -13,21 +13,21 @@ def run_pipeline(input_file, output_file):
         "--runner=DataflowRunner",
         "--project=yelp-394623",
         "--region=us-central1",
-        "--temp_location=gs://proyecto-yelp/tmp",  # Cambia YOUR_BUCKET_NAME por el nombre de tu Bucket
+        "--temp_location=gs://proyecto-yelp/tmp",
     ])
 
     # Crea el pipeline de Dataflow
     with beam.Pipeline(options=pipeline_options) as pipeline:
-        # Lee los datos del archivo .csv
-        lines = pipeline | "ReadFromGCS" >> ReadFromText(input_file)
+        # Lee los datos del archivo CSV
+        lines = pipeline | "ReadFromGCS" >> ReadFromTextFile(input_file)
 
         # Aplica la transformación para eliminar la columna "is_open"
         cleaned_data = lines | "RemoveIsOpenColumn" >> beam.Map(remove_is_open)
 
-        # Escribe los datos limpios en otro archivo .csv
-        cleaned_data | "WriteToGCS" >> WriteToText(output_file)
+        # Escribe los datos limpios en otro archivo CSV
+        cleaned_data | "WriteToGCS" >> WriteToText(output_file, file_name_suffix=".csv")
 
 if __name__ == "__main__":
-    input_file = "gs://proyecto-yelp/sets/business.csv"    # Cambia YOUR_BUCKET_NAME por el nombre de tu Bucket
-    output_file = "gs://proyecto-yelp/sets/output.csv"  # Cambia YOUR_BUCKET_NAME por el nombre de tu Bucket
+    input_file = "gs://proyecto-yelp/sets/business.csv"
+    output_file = "gs://proyecto-yelp/sets_limpios/output"  # El archivo de salida será un archivo CSV
     run_pipeline(input_file, output_file)
